@@ -19,7 +19,7 @@ public class bubbleSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 5, 4, 3, 2, 1 };
+        int[] arr = { 3, 2, 5, 4, 1 };
         recursiveBubble(arr, arr.length);
         for (int i : arr) {
             System.out.println(i);
