@@ -10,8 +10,10 @@ public class setHash {
             intStr.put(c, intStr.getOrDefault(c, 0) + 1);
         }
         for (Map.Entry<Character, Integer> entry : intStr.entrySet()) {
-            System.out.println(entry.getKey() + ":" + entry.getValue());
+            if (entry.getValue() == 1) {
+                System.out.println(entry.getKey());
+            }
         }
-        
+
     }
 }
