@@ -2,6 +2,7 @@
 
 public class majorityElement {
     public static int majorityElement(int[] nums) {
+        
         int count = 1;
         int contestant = nums[0];
         for (int i = 1; i < nums.length; i++) {

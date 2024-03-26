@@ -16,6 +16,8 @@ public class setHash {
                 System.out.println(entry.getKey());
             }
         }
+        Arrays.sort(arr);
+
         arr.add(1);
         arr.add(7);
         arr.add(0);
